@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="shortcut icon" href="Images/luggage_928043.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/sign-up.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body{
+            font-family: 'Roboto',sans-serif;
+            background: url("Images/sea beach.jpg") no-repeat;
+            display: flex;
+            flex-direction: column;
+            background-position: center;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <h1>Khan Travellings</h1>
+            <h4>Go where your heart takes</h4>
+        </div>
+        <nav class="navigation">
+            <a href="welcome.html">Home</a>
+            <a href="#">News</a>
+            <a href="#">Vehicle</a>
+            <a href="#">Destination</a>
+        </nav>
+    </header>
+
+    <div class="slate">
+        <div class="form-box sign-up">
+            <h2>Sign-up</h2>
+            <form action="">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-user'></i></span>
+                    <input type="text" name="" id="" placeholder="User name" required>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-phone' ></i></span>
+                    <input type="tel" name="" id="" placeholder="User contact number" required>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-envelope' ></i></span>
+                    <input type="email" name="" id="" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-lock-alt' ></i></span>
+                    <input type="password" name="" id="" placeholder="Password" required>
+                </div>
+                <div class="agreement">
+                    <label for=""><input type="checkbox" name="" id="">I agree to the conditions</label>    
+                </div>
+                <button class="Sign-up-btn"><a href="login.html">Sign-up</a></button>
+                <div class="agreement-doc">
+                    <p><a href="agreement.html">Read the agreement document</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="scripts/login.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
